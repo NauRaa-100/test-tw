@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+}
+
+
+body{
+    background-image:url(https://th.bing.com/th/id/OIP.-D-PJNLXFADh01iJzh86mwHaEK?rs=1&pid=ImgDetMain);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.459);
+height: 70px;
+background-attachment:fixed;
+background-size: cover;
+}
+header h1{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-left: 15px;
+padding-top:22px ;
+text-shadow: 5px 5px black;
+}
+header nav{
+display: flex;
+justify-content: right;
+margin-top: -23px ;
+}
+nav span a {
+color: aliceblue;
+text-decoration: none;
+margin: 10px;
+font-size: large;
+font-weight: bold;
+text-shadow: 1px 1px black;
+}
+section{
+    display: flex;
+align-items: center;
+}
+
+.paragraph{
+text-align: center;}
+
+section main{
+    margin: 0 10px 0 10px;
+}
+main div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+main div button{
+
+    background-color: rgba(0, 102, 255, 0.781);
+    border-radius: 4px;
+    box-shadow: 3px 3px rgba(14, 9, 2, 0.842);
+    height: 25px;
+    transition: 0.3s;
+
+}
+.p{
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+main div button:hover{
+transform:scale(1.2);
+
+}
